@@ -2,9 +2,7 @@
 layout: default
 modal-id: 6
 date: 2014-07-15
-![Submarine](assets/images/submarine.png)
-![Submarine 2](assets/images/submarine2.png)
-![Submarine 3](assets/images/submarine3.png)
+img: submarine.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
