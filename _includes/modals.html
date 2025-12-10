@@ -16,11 +16,12 @@
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
               {% if post.images %}
-                <div class="project-images-row">
-                  {% for image in post.images %}
-                    <img src="img/portfolio/{{ image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                  {% endfor %}
-                </div>
+                {% for image in post.images %}
+                  <img src="img/portfolio/{{ image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                {% endfor %}
+              {% endif %}
+              {% if post.description %}
+              <p>{{ post.description }}</p>
               {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
