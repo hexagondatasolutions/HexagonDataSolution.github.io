@@ -483,26 +483,3 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-
-
-.project-images-row {
-  display: flex;
-  overflow-x: auto;
-  gap: 15px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.project-images-row img {
-  flex: 0 0 auto;
-  width: 200px;      /* adjust size */
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease;
-}
-
-.project-images-row img:hover {
-  transform: scale(1.05);
-}
-
