@@ -546,6 +546,7 @@ footer .footer-below {
   overflow: hidden;
   position: relative;
   width: 100%;
+  flex-direction: row !important;
 }
 
 .logo-track {
@@ -570,6 +571,21 @@ footer .footer-below {
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
+}
+
+/* Force horizontal layout for logo track */
+.logo-track {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.logo-item {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
 }
 
 
