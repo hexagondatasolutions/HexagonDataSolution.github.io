@@ -484,24 +484,31 @@ footer .footer-below {
 }
 
 
-.modal-title {
-  font-size: 28px;
-  margin-bottom: 15px;
-  font-weight: 700;
+/* Fix oversized modal content: padding + layout */
+.portfolio-modal .modal-content {
+    padding: 60px 40px !important;
 }
 
+/* Make modal wider on desktop */
+.portfolio-modal .modal-dialog {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Prevent images from overflowing */
+.portfolio-modal .modal-content img {
+    max-width: 90%;
+    border-radius: 6px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.3);
+}
+
+/* Optional: tighten description text layout */
 .modal-description {
-  margin-top: 20px;
-  font-size: 16px;
-  line-height: 1.7;
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.carousel-inner > .item > img {
-  border-radius: 6px;
-  box-shadow: 0 5px 18px rgba(0,0,0,0.3);
-}
-
-.item-details li {
-  margin: 10px 15px;
-}
-
