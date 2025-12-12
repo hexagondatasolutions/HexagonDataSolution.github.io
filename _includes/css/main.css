@@ -483,3 +483,25 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
+
+.modal-title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.modal-description {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.carousel-inner > .item > img {
+  border-radius: 6px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.3);
+}
+
+.item-details li {
+  margin: 10px 15px;
+}
+
