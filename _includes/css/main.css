@@ -1164,7 +1164,7 @@ footer .footer-below {
   padding-top: 10px;    /* Reduced from 150px */
   padding-bottom: 20px; /* Reduced from 100px */
   background: #0f766e;
-  background: radial-gradient(circle at center, #042f2e 0%, #0f766e 100%);
+  background: radial-gradient(circle at center, #134e4a 0%, #0f766e 100%);
   color: white;
   text-align: center;
 }
