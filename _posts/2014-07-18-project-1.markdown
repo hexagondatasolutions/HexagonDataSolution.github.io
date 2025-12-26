@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: Pepsi Dash 3 .png
+img: cabin.png
 images: 
  - cabin.png
  - cake.png
