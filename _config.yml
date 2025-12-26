@@ -1,11 +1,11 @@
 # Site settings
-title: Tata Iles
-email: tatailes34@gmail.com
+title: Hexagon Data Soltutions
+email: hexagon.data.solutions@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Data Scientist - AI - Python - R - SQL"
-meta_author: Tata Iles
+skills: "Data Services"
+meta_author: author
 
 # Google webmaster tools
 google_verify:
@@ -25,14 +25,14 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 6a0dad        # your main purple
-  primary-rgb: "106,13,173"  # same color in RGB for overlays
-  secondary: 4b0082      # dark purple for contrast
-  secondary-dark: 2e004f # very dark purple
+  primary: 0f766e        # petrol teal
+  primary-rgb: "15,118,110"
+  secondary: 134e4a      # deep teal
+  secondary-dark: 042f2e # almost black-teal
 
 # Footer settings
 footer:
-  copyright: Tata Iles
+  copyright: Yeeees
   location: Algeria
   social: Around the Web
   credits: Credits
